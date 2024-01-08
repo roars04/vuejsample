@@ -8,9 +8,17 @@ const router = useRouter();
   <div class="row w-25 p-3">
     <TicketComponent
       header="Free Access to Acme Music"
-      middle="- Stream 60 million songs on your device - No internet access"
       bottom="Connect now"
-    />
+      @click="() => {}"
+    >
+      <div>
+        <p>
+          <i class="bi bi-check" style="color: orange"></i> Stream 60 million
+          songs on your device
+        </p>
+        <p><i class="bi bi-x" style="color: orange"></i> No internet access</p>
+      </div>
+    </TicketComponent>
   </div>
   <div class="row">
     <div class="col">

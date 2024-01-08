@@ -42,7 +42,7 @@
             <p>{{ header }}</p>
           </div>
           <div class="middle">
-            <p>{{ middle }}</p>
+            <slot />
           </div>
         </div>
         <div class="bottom">
@@ -61,7 +61,6 @@
 }
 .header,
 .bottom,
-.middle,
 .logo {
   min-width: 100%;
   min-height: 25%;
@@ -75,6 +74,7 @@
   font-size: large;
   font-weight: 400;
   color: black;
+  text-align: left;
 }
 .top {
   position: absolute;
@@ -140,7 +140,6 @@
 const props: any = defineProps({
   logo: { type: undefined, required: false },
   header: { type: undefined, required: false },
-  middle: { type: undefined, required: false },
   bottom: { type: undefined, required: false },
 });
 const emit = defineEmits(["Click"]);
