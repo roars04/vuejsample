@@ -1,0 +1,40 @@
+{
+  "app": {
+    "title": "m3connect"
+  },
+  "form": {
+    "firstname": "firstname",
+    "firstnamePlaceholder": "John",
+    "lastname": "lastname",
+    "lastnamePlaceholder": "Doe",
+    "birthdate": "birthdate",
+    "birthdatePlaceholder": "YYYY-mm-dd",
+    "email": "E-Mail",
+    "emailPlaceholder": "JohnDoe{'@'}email.com",
+    "type": "type",
+    "phone": "phone",
+    "phonePlaceholder": "004917612345678",
+    "business": "business",
+    "private": "private",
+    "primary": "primary",
+    "mobile": "mobile",
+    "other": "other",
+    "street": "street",
+    "streetPlaceholder": "Examplestreet 1",
+    "zip": "zip",
+    "zipPlaceholder": "12345",
+    "city": "city",
+    "cityPlaceholder": "London",
+    "country": "country",
+    "countryPlaceholder": "EN",
+    "confirm": "confirm",
+    "addPhoneNumber": "add",
+    "addEmail": "add",
+    "remove": "remove"
+  },
+  "lng": {
+    "lng": "Language",
+    "de": "German",
+    "en": "English"
+  }
+}

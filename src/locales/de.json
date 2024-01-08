@@ -1,0 +1,40 @@
+{
+  "app": {
+    "title": "m3connect"
+  },
+  "form": {
+    "firstname": "Vorname",
+    "firstnamePlaceholder": "Max",
+    "lastname": "Nachname",
+    "lastnamePlaceholder": "Mustermann",
+    "birthdate": "Geburtstag",
+    "birthdatePlaceholder": "YYYY-mm-dd",
+    "email": "E-Mail",
+    "emailPlaceholder": "MaxMustermann{'@'}email.de",
+    "type": "Typ",
+    "phone": "Handynummer",
+    "phonePlaceholder": "004917612345678",
+    "business": "Business",
+    "private": "Privat",
+    "primary": "Primär",
+    "mobile": "Handy",
+    "other": "andere",
+    "street": "Strasse",
+    "streetPlaceholder": "Musterstraße 1",
+    "zip": "Postleitzahl",
+    "zipPlaceholder": "12345",
+    "city": "Stadt",
+    "cityPlaceholder": "Berlin",
+    "country": "Land",
+    "countryPlaceholder": "DE",
+    "confirm": "Bestätigen",
+    "addPhoneNumber": "Hinzufügen",
+    "addEmail": "Hinzufügen",
+    "remove": "Löschen"
+  },
+  "lng": {
+    "lng": "Sprache",
+    "de": "Deutsch",
+    "en": "Englisch"
+  }
+}
