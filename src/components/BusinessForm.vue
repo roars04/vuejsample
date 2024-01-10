@@ -63,7 +63,7 @@ const { t } = useI18n();
               data-bs-toggle="dropdown"
               aria-expanded="false"
             >
-              {{ email.type == undefined ? "Typ" : email.type }}
+              {{ email.type == undefined ? "Typ" : t("form." + email.type) }}
             </button>
             <ul class="dropdown-menu">
               <li v-if="index == 0">
@@ -164,7 +164,7 @@ const { t } = useI18n();
             data-bs-toggle="dropdown"
             aria-expanded="false"
           >
-            {{ phone.type == undefined ? "Typ" : phone.type }}
+            {{ phone.type == undefined ? "Typ" : t("form." + phone.type) }}
           </button>
           <ul class="dropdown-menu">
             <li v-if="index == 0">
@@ -263,7 +263,7 @@ const { t } = useI18n();
         !(
           store.form.phone.length == 3 ||
           ['business', 'private', 'primary', 'mobile'].includes(
-            store.form.phone[0].type
+            store.form.phone[0].type!
           )
         )
       "
