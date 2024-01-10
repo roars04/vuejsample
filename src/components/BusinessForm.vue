@@ -25,7 +25,7 @@ const { t } = useI18n();
     </div>
     <div class="form-outline mb-4">
       <label for="lastname" class="form-label h5">{{
-        t("form.lasname")
+        t("form.lastname")
       }}</label>
       <div class="input-group has-validation">
         <input
