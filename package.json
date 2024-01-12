@@ -10,7 +10,6 @@
     "build_prod": "vite build --mode production"
   },
   "dependencies": {
-    "@intlify/unplugin-vue-i18n": "^0.11.0",
     "bootstrap": "^5.2.3",
     "bootstrap-icons": "^1.11.3",
     "vue": "^3.4.4",
